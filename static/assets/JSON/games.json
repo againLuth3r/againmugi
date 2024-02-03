@@ -524,7 +524,8 @@
   {
     "name": "דיונות צדף",
     "source": "/service/hvtrs8%2F-snore%2Fgcmg.eivhwb%2Cim%2Ffule%2Fswrdep%2F",
-    "image": "/assets/img/dune.jpeg"
+    "image": "/assets/img/dune.jpeg",
+    "popular": "yes"
   },
   {
     "name": "צדף דריפט 4",
