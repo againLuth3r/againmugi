@@ -53,7 +53,7 @@ if (location.pathname === '/') {
 			
             location.href = '/view';
         });
-        document.querySelector('.featuredimg').src = '/assets/img/sausage-flip.jpg';
+        document.querySelector('.featuredimg').src = '/assets/img/sausage-flip.jpg?size=584x341';
     }).catch(e => new PolarisError('Failed to load featured game.'));
 	
 	fetch('/assets/JSON/changelog.json').then(res => res.json()).then(changelog => changelog.forEach(change => {
