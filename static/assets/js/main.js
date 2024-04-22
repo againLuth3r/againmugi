@@ -42,7 +42,7 @@ if (window.self === window.top) {
 
 if (location.pathname === '/') {
     fetch('/assets/JSON/games.json').then(res => res.json()).then(games => {
-        const gameName = 'נקנקיצדף';
+        const gameName = 'סאבוואי צדף';
         const game = games.filter(g => g.name === gameName)[0];
 
         document.querySelector('.featuredimg').addEventListener('click', () => {
@@ -53,7 +53,7 @@ if (location.pathname === '/') {
 			
             location.href = '/view';
         });
-        document.querySelector('.featuredimg').src = '/assets/img/sausage-flip.jpg?size=584x341';
+        document.querySelector('.featuredimg').src = '/assets/img/wide/subwaysurfers.webp';
     }).catch(e => new PolarisError('Failed to load featured game.'));
 	
 	fetch('/assets/JSON/changelog.json').then(res => res.json()).then(changelog => changelog.forEach(change => {
