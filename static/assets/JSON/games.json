@@ -330,11 +330,6 @@
     "image": "https://luth3rrr.github.io/images/car-parking.png"
   },
   {
-    "name": "גנב צדף",
-    "source": "https://webglmath.github.io/bob-the-robber-4/",
-    "image": "https://luth3rrr.github.io/images/bob-the-robber.jpeg"
-  },
-  {
     "name": "סימולטור נהיגהצדף",
     "source": "https://ubg77.github.io/edit/city-rider",
     "image": "https://luth3rrr.github.io/images/city-rider.jpeg"
@@ -586,5 +581,30 @@
     "name": "נקנקיצדף",
     "source": "/service/hvtrs8%2F-tmptz%2Cgktju%60.ko-g4%2Fqawscgg-dlkp-",
     "image": "/assets/img/sausage-flip.jpg"
+  },
+  {
+    "name": "גנב צדף",
+    "source": "https://mugitz.com/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-bmb%2Ftje%2Frmb%60ep%2F",
+    "image": "https://bitlifeonline.github.io/bob-the-robber/logo.png"
+  },
+  {
+    "name": "2גנב צדף",
+    "source": "https://mugitz.com/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-bmb%2Ftje%2Frmb%60ep-0%2F",
+    "image": "https://bitlifeonline.github.io/bob-the-robber-2/logo.png"
+  },
+  {
+    "name": "3גנב צדף",
+    "source": "https://mugitz.com/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-bmb%2Ftje%2Frmb%60ep-1%2F",
+    "image": "https://bitlifeonline.github.io/bob-the-robber-3/logo.png"
+  },
+  {
+    "name": "3גנב צדף",
+    "source": "https://mugitz.com/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-bmb%2Ftje%2Frmb%60ep-2%2F",
+    "image": "https://bitlifeonline.github.io/bob-the-robber-4/logo.png"
+  },
+  {
+    "name": "3גנב צדף",
+    "source": "https://mugitz.com/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-bmb%2Ftje%2Frmb%60ep-3%2F",
+    "image": "https://bitlifeonline.github.io/bob-the-robber-5/logo.png"
   }
 ]
