@@ -1,3 +1,21 @@
+const routes = [
+  { path: "/a", file: "apps.html" },
+  { path: "/g", file: "art.html" },
+  { path: "/s", file: "settings.html" },
+  { path: "/p", file: "science.html" },
+  { path: "/!", file: "!.html" },
+  { path: "/", file: "index.html" },
+  { path: "/d", file: "dashboard.html" },
+  { path: "/e", file: "english.html" },
+  { path: "/-", file: "math.html" },
+  { path: "/l", file: "/assets/404/loading.html" },
+];
+
+routes.forEach((route) => {
+  app.get(route.path, (req, res) => {
+    res.sendFile(path.join(__dirname, "static", route.file));
+  });
+});
 import { createBareServer } from '@tomphttp/bare-server-node';
 import express from 'express';
 import mime from 'mime';
