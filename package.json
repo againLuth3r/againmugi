@@ -1,23 +1,30 @@
 {
     "name": "polaris",
-    "version": "1.0.0",
-    "description": "The future of school gaming.",
-    "main": "index.js",
+    "version": "1.3.2",
+    "description": "The professional unblocked games site.",
+    "main": "server/index.js",
     "type": "module",
     "scripts": {
-        "dev": "nodemon index.js -e js,css,html,jpeg,png,json",
-        "start": "node index.js"
+        "start": "node server",
+        "prod": "node server prod",
+        "dev": "node server dev"
     },
-    "author": "Polaris Developments",
+    "author": "Polaris Development Group",
     "license": "GNU-3.0-or-later",
     "dependencies": {
-        "@tomphttp/bare-server-node": "^2.0.4",
-        "cors": "*",
-        "easyviolet": "github:Russell2259/Easyviolet",
-        "express": "*",
-        "mime": "*"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.1"
+        "@mercuryworkshop/bare-mux": "^1.0.5",
+        "@mercuryworkshop/epoxy-transport": "^1.1.0",
+        "@mercuryworkshop/libcurl-transport": "^1.2.2",
+        "@nebula-services/dynamic": "^0.7.2-patch.2",
+        "@titaniumnetwork-dev/ultraviolet": "^3.0.0",
+        "@tomphttp/bare-server-node": "^2.0.3",
+        "cors": "^2.8.5",
+        "express": "^4.18.3",
+        "html-minifier": "^4.0.0",
+        "javascript-obfuscator": "^4.1.0",
+        "jsdom": "^23.0.1",
+        "mime": "^4.0.1",
+        "uuid": "^9.0.1",
+        "wisp-server-node": "^1.0.1"
     }
 }
