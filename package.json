@@ -11,7 +11,6 @@
     "author": "Polaris Developments",
     "license": "GNU-3.0-or-later",
     "dependencies": {
-        "@tomphttp/bare-server-node": "*",
         "cors": "*",
         "easyviolet": "github:Russell2259/Easyviolet",
         "express": "*",
