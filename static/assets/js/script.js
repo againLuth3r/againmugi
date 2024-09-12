@@ -11,7 +11,7 @@ function script(text) {
 // ====================================
 const newScript = document.createElement("script");
 newScript.setAttribute("defer", "");
-newScript.setAttribute("data-domain", "55gms.com");
+newScript.setAttribute("data-domain", "mugitz.com");
 newScript.setAttribute(
   "src",
   "https://data.ch3n.cc/js/script.tagged-events.js",
