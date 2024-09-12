@@ -2,7 +2,7 @@ function hire(value) {
   let iframe = document.querySelector(".iframe.active");
 
   window.navigator.serviceWorker
-    .register("/assets/uv/sw.js", {
+    .register("https://55gms.com/assets/uv/sw.js", {
       scope: __uv$config.prefix,
     })
     .then(() => {
